@@ -1,0 +1,123 @@
+.header-playshow{
+    background-image: url("../img/jakob-owens-259171-unsplash.jpg") !important;
+      /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/sharegrid-474915-unsplash.jpg") !important; */
+    color: #e30613;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.message-header{
+    color: white;
+}
+
+#services{
+    background-color: white !important;
+    color: black !important;
+}
+
+.content-services{
+    display: flex;
+    margin-top: 30px;
+}
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 50%;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.right-content{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-left: 10px;
+}
+
+.right-content img{
+    height: auto;
+    width: 90%;
+}
+
+.how-its-work{
+    font-size: 30px;
+    text-align: left;
+    color: #e30613;
+    border-bottom: 3px #e30613 solid;
+}
+
+.content-buy-ticket{
+    width: 100%;
+}
+
+#dayevent{
+    background-color: #e8e8e8!important;
+    color: black !important;
+}
+
+#dayevent .right-content{
+    margin: 0px;
+    margin-right: 10px;    
+}
+
+#dayevent .left-content{
+    margin: 0px;
+    margin-left: 10px;    
+}
+
+.footer{
+    background-color: #e30613 !important;
+}
+
+.text-copyright{
+    color: white !important;
+}
+
+.social-link{
+    background-color: white !important;
+}
+
+.social-link i{
+    color: black !important;
+}
+
+
+
+
+/* MOBILE */
+@media(max-width:768px) {
+    .left-content{
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .right-content{
+        width: 100%;
+        margin-left: 0px;
+        flex-direction: column;
+    }
+
+    #dayevent .left-content{
+        margin-top: 20px;
+    }
+
+    #services .content-services{
+        flex-direction: column-reverse;
+    }
+
+    #dayevent .content-services{
+        flex-direction: column;
+    }
+    
+    .right-content img{
+        width: 100%;
+    }
+}
