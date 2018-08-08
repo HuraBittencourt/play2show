@@ -126,6 +126,16 @@
     #dayevent .content-services{
         flex-direction: column;
     }
+
+    #video{
+        height: 300px;
+        display: flex;
+        align-items: center;
+    }
+
+    #video iframe{
+        height: 300px;
+    }
     
     .right-content img{
         width: 100%;
