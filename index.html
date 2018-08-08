@@ -26,6 +26,30 @@
 
   <body id="page-top">
 
+    <!-- Button trigger modal -->
+    <button id="button-modal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      Launch demo modal
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Tempo para o evento</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="countdown-modal"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary button-close-modal" data-dismiss="modal" style="background-color: #e30613 !important; border-color: #e30613 !important;">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Navigation -->
     <a class="menu-toggle rounded" href="#">
       <i class="fas fa-bars"></i>
@@ -46,6 +70,26 @@
         </li>
       </ul>
     </nav>
+
+    <div class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Tempo para o evento</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="countdown-modal">Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <!-- Header -->
     <header class="masthead d-flex header-playshow">
@@ -178,6 +222,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
+    <script src="js/countdown.min.js"></script>
+    <script src="js/all.min.js"></script>
 
   </body>
 
