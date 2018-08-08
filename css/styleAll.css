@@ -166,8 +166,18 @@
         flex-direction: column;
     }
 
+
     #countdown-modal{
         font-size: 36px;
+    }
+    #video{
+        height: 300px;
+        display: flex;
+        align-items: center;
+    }
+
+    #video iframe{
+        height: 300px;
     }
     
     .right-content img{
