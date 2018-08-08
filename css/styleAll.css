@@ -71,6 +71,16 @@
     margin-left: 10px;    
 }
 
+#video{
+    background-color: black!important;
+    padding: 0px;
+    height: 680px;
+}
+
+#sidebar-wrapper{
+    background-color: #e30613!important;
+}
+
 .footer{
     background-color: #e30613 !important;
 }
